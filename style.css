@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    background: linear-gradient(#f551a0 0%, #b342f5 100%);
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border-style: solid;
+    text-align: center;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 30px;
+    background: pink;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:lightcoral;
+}
+
+li {
+    border-right: 1px solid #bbb;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#contact {
+    background: thistle;
+}
+
+html {
+    scroll-behavior: smooth;
+}
